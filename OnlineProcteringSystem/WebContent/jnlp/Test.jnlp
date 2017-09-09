@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://10.42.0.247:8080/" href="Test.jnlp">
+    <information>
+        <title>Jnlp Testing</title>
+        <vendor>YONG MOOK KIM</vendor>
+        <homepage href="http://10.42.0.247:8080/" />
+        <description>Testing Testing</description>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+
+        <j2se version="1.6+" /> 
+       <jar href="TestJnlp.jar" />
+    </resources>
+    <application-desc main-class="TestJnlp" />
+</jnlp>
